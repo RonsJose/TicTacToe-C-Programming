@@ -1,3 +1,3 @@
 ﻿  Main.c
-C:\Users\ronsj\source\repos\TicTacToe C Programming\Main.c(12,8): warning C4244: 'function': conversion from 'time_t' to 'unsigned int', possible loss of data
-  TicTacToe C Programming.vcxproj -> C:\Users\ronsj\source\repos\TicTacToe C Programming\x64\Debug\TicTacToe C Programming.exe
+C:\Users\ronsj\Documents\TicTacToe-C-Programming\TicTacToe C Programming\Main.c(12,8): warning C4244: 'function': conversion from 'time_t' to 'unsigned int', possible loss of data
+  TicTacToe C Programming.vcxproj -> C:\Users\ronsj\Documents\TicTacToe-C-Programming\TicTacToe C Programming\x64\Debug\TicTacToe C Programming.exe

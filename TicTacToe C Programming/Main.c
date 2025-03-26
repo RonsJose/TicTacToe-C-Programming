@@ -2,7 +2,7 @@
 #include <stdlib.h>
 #include <time.h>
 int Ran();
-void Game();
+void Game(int *w);
 void Computer(char b[3][3], int* i);
 void User(char b[3][3], int* i);
 
@@ -11,10 +11,12 @@ int main()
 {
 	srand(time(NULL));
 	char ans = 'n';
+	int win = 0;
 
 	do
 	{
-		Game();
+		Game(&win);
+		printf("Number of wins: %i\n", win);
 		printf("Want to play again? (Y/N):");
 		scanf(" %c", &ans);
 	} while (ans == 'Y' || ans == 'y');
@@ -22,7 +24,7 @@ int main()
 	return 0;
 }
 
-void Game()
+void Game(int *w)
 {
 	char board[3][3];
 	int i, j;
@@ -71,10 +73,11 @@ void Game()
 	if (i % 2 == 0 && result == 'y')
 	{
 		printf("Congrats player 1, you won!\n\n");
+		*w += 1;
 	}
 	else if (i % 2 != 0 && result == 'y')
 	{
-		printf("Womp Womp the computer won!\n\n");
+		printf("You lose! The computer won!\n\n");
 	}
 	else
 	{
