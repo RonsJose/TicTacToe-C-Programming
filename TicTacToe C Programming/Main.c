@@ -12,12 +12,12 @@ int main()
 	srand(time(NULL));
 	char ans = 'n';
 	int win = 0;
-
+	char again[] = "Want to play again? (Y/N):";
 	do
 	{
 		Game(&win);
 		printf("Number of wins: %i\n", win);
-		printf("Want to play again? (Y/N):");
+		printf("%s", again);
 		scanf(" %c", &ans);
 	} while (ans == 'Y' || ans == 'y');
 
