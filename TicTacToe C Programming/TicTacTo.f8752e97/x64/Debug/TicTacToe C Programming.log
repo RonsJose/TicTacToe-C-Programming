@@ -1,4 +1,4 @@
 ﻿  Main.c
 C:\Users\ronsj\Documents\TicTacToe-C-Programming\TicTacToe C Programming\Main.c(12,8): warning C4244: 'function': conversion from 'time_t' to 'unsigned int', possible loss of data
-  LINK : C:\Users\ronsj\Documents\TicTacToe-C-Programming\TicTacToe C Programming\x64\Debug\TicTacToe C Programming.exe not found or not built by the last incremental link; performing full link
+C:\Users\ronsj\Documents\TicTacToe-C-Programming\TicTacToe C Programming\Main.c(18,2): warning C4013: 'gets' undefined; assuming extern returning int
   TicTacToe C Programming.vcxproj -> C:\Users\ronsj\Documents\TicTacToe-C-Programming\TicTacToe C Programming\x64\Debug\TicTacToe C Programming.exe
