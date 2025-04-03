@@ -1,0 +1,27 @@
+# Ignore build output
+Debug/
+x64/
+Release/
+
+# Ignore Visual Studio temp files
+.vs/
+*.suo
+*.user
+*.ncb
+*.log
+*.tlog
+*.obj
+*.pdb
+*.ipch
+
+# Ignore compiled binaries
+*.exe
+*.dll
+*.lib
+*.ilk
+*.exp
+*.o
+*.out
+
+# Ignore CMake temp files (if using)
+CMakeLists.txt.user
