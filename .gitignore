@@ -17,4 +17,6 @@ Release/
 *.exp
 *.o
 *.out
+*.db 
+*.vsidx 
 CMakeLists.txt.user
