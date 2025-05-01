@@ -1,4 +1,4 @@
 ﻿  Main.c
-C:\Users\ronsj\Documents\TicTacToe-C-Programming\TicTacToe C Programming\Main.c(12,8): warning C4244: 'function': conversion from 'time_t' to 'unsigned int', possible loss of data
-C:\Users\ronsj\Documents\TicTacToe-C-Programming\TicTacToe C Programming\Main.c(18,2): warning C4013: 'gets' undefined; assuming extern returning int
-  TicTacToe C Programming.vcxproj -> C:\Users\ronsj\Documents\TicTacToe-C-Programming\TicTacToe C Programming\x64\Debug\TicTacToe C Programming.exe
+C:\Users\RonsJose-STUDENT\Desktop\c project\TicTacToe-C-Programming\TicTacToe C Programming\Main.c(12,8): warning C4244: 'function': conversion from 'time_t' to 'unsigned int', possible loss of data
+C:\Users\RonsJose-STUDENT\Desktop\c project\TicTacToe-C-Programming\TicTacToe C Programming\Main.c(19,2): warning C4013: 'gets' undefined; assuming extern returning int
+  TicTacToe C Programming.vcxproj -> C:\Users\RonsJose-STUDENT\Desktop\c project\TicTacToe-C-Programming\TicTacToe C Programming\x64\Debug\TicTacToe C Programming.exe
